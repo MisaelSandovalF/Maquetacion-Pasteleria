@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PASTELES MARY</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/8e0dea3857.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="maquetacion.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h2 href="#">PASTELERIA MARY</h2>
+      <nav>
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+      </nav>
+    </header>
+    <section id="banner">
+      <div class="contenido-banner">
+        <h3><span>PASTELERIA MARY </span> <br />TENEMOS LO QUE TE GUSTA</h3>
+        <br />
+        <p>
+          Hoy, como desde 1992, mantenemos un delicioso sabor y una calidad
+          constante. Sólo utilizamos ingredientes frescos y naturales; cada
+          pastel es hecho con cariño y uno a uno, de manera artesanal; así es
+          como logramos que nuestro sabor permanezca intacto desde aquel día en
+          que, ilusionados, decidimos llenar tu vida de delicias.
+        </p>
+        <a href="#" class="items-banner pasteles">PASTELES</a>
+        <a href="#" class="items-banner snacks">SNACKS</a>
+        <a href="#" class="items-banner brownies">BROWNIES</a>
+        <a href="#" class="items-banner pays">PAYS</a>
+      </div>
+    </section>
+    <section id="contendor-selector">
+      <div class="contenedor-selector-items">
+        <div class="medidas-pastel" id="pastel1">
+          <div class="texto-item">
+            <a hr
+              >CAPRICHO<label for="check-capricho" class="agregar-item">
+                &#43;
+              </label></a
+            >
+            <input type="checkbox" id="check-capricho" />
+          </div>
+        </div>
+        <div class="medidas-pastel" id="pastel2">
+          <div class="texto-item">
+            <a>CANELA<label for="check" class="agregar-item"> &#43; </label></a>
+            <input type="checkbox" id="check" />
+          </div>
+        </div>
+        <div class="medidas-pastel" id="pastel3">
+          <div class="texto-item">
+            <a>FRUTOS<label for="check" class="agregar-item">&#43;</label></a>
+            <input type="checkbox" id="check-frutos" />
+          </div>
+        </div>
+      </div>
+      <div class="contenedor-selector-items">
+        <div class="medidas-pastel" id="pastel4">
+          <div class="texto-item">
+            <a>MAZAPAN<label for="check" class="agregar-item">&#43;</label></a>
+            <input type="checkbox" id="check-mazapan" />
+          </div>
+        </div>
+        <div class="medidas-pastel" id="pastel5">
+          <div class="texto-item">
+            <a
+              >CHOCOLATE<label for="check" class="agregar-item">&#43;</label></a
+            >
+            <input type="checkbox" id="check-chocolate" />
+          </div>
+        </div>
+        <div class="medidas-pastel" id="pastel6">
+          <div class="texto-item">
+            <a>QUESO<label for="check" class="agregar-item">&#43;</label></a>
+            <input type="checkbox" id="check-queso" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="formulario">
+      <div class="contenedor-formulario">
+        <form action="#" method="get">
+          <header id="encabezado">
+            <h2>TOP PASTELES</h2>
+            <h5>LOS MEJORES PASTELES JUSTO A TUS ORDENES</h5>
+          </header>
+          <div id="box">
+            <p>
+              Nombre Completo: <br /><input
+                type="text"
+                name="#"
+                size="50"
+                placeholder=" Ingrese Su Nombre Completo"
+              />
+            </p>
+            <p>
+              Qué Pastel Necesita:<br /><input
+                type="text"
+                name="#"
+                size="50"
+                placeholder=" Ingrese El Nombre Del Pastel Que Desea"
+              />
+            </p>
+            <p>
+              Detalles:<br /><input
+                type="text"
+                name="#"
+                size="50"
+                placeholder=" Ingrese Los Detalles De Su Pedido"
+              />
+            </p>
+            <p>
+              Dirección:<br /><textarea
+                name="#"
+                rows="5"
+                cols="50" 
+                placeholder=" Ingrese Su Direccion"
+              ></textarea>
+            </p>
+          </div>
+          <div id="box">
+            <p>
+              Numero: <br /><input
+                type="text"
+                name="#"
+                size="50"
+                placeholder=" Ingrese Su Numero Telefonico"
+              />
+            </p>
+            <p>
+              Piezas: <br /><input
+                type="text"
+                name="#"
+                size="50"
+                placeholder=" ngrese La Cantidad De Piezas Que Desea"
+              />
+            </p>
+            <p>
+              ¿Cuando Lo Necesita?: <br /><input type="date" name="#" /> Hora:
+              <input type="time" name="#" />
+            </p>
+            <p>Nuestra Tienda</p>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481934.37921008124!2d-99.43282394007562!3d19.320931026822304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0036b1352927%3A0xdefd9e4ee8d18a5b!2sCd.%20de%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1646272396094!5m2!1ses-419!2smx" 
+            ></iframe>
+          </div>
+        </form>
+        
+      </div>
+      <div id="contenedor-btn">
+      <a href="#" class="boton-enviar">ENVIAR</a>
+      </div>
+    </section>
+    <footer>
+      <h5>&#xa9; PASTELERIA MARY</h5>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,295 @@
+/****
+RESET
+****/
+* {
+  padding: 0;
+  margin: 0;
+}
+/****
+HEADER y NAV
+****/
+#header {
+  display: flex;
+  height: 100%;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+
+  background-image: url(/img/mármol.jpg);
+}
+header h2 {
+  font-size: 3vw;
+  font-family: pasteleria-titulos;
+
+  text-shadow: 5px 1px 2px white;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  transition: 0.4s;
+  font-family: pasteleria-contenido;
+  font-size: 1vw;
+
+  color: black;
+}
+nav a:hover {
+  color: coral;
+}
+/****
+BANER SECCION
+****/
+#banner {
+  padding: 0 50px;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px -5px  rgba(0, 0, 0, 0.5);
+  
+  background-image: url(/img/fondo.jpg);
+}
+.contenido-banner {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  
+  color: black;
+}
+.contenido-banner h3 {
+  font-size: 1.5vw;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+.contenido-banner h3 span {
+  font-size: 3vw;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+.contenido-banner > p {
+  font-size: 1vw;
+  width: 30%;
+  height: 30%;
+}
+.items-banner {
+  position: absolute;
+  text-decoration: none;
+  font-family: pasteleria-items-banner;
+  font-size: 1vw;
+  padding: 5px 5px;
+  border-radius: 10px;
+
+  text-shadow: -1px 5px 30px black;
+  box-shadow: -1px 5px 30px black;
+  color: black;
+  background-color: aliceblue;
+}
+.pasteles {
+  top: 70%;
+  left: 45%;
+}
+.snacks {
+  top: 30%;
+  left: 35%;
+}
+.brownies {
+  top: 30%;
+  left: 72%;
+}
+.pays {
+  top: 70%;
+  left: 72.5%;
+}
+.items-banner:hover {
+  background-color: blanchedalmond;
+  transition: 0.4s;
+}
+
+/****
+ CONTENEDORES
+****/
+
+#contendor-selector {
+  height: 100%;
+  padding: 0 50px;
+  box-shadow: 0px -5px  rgba(0, 0, 0, 0.5);
+
+  
+}
+.contenedor-selector-items {
+  position: relative;
+  display: flex;
+  height: 100%;
+  padding: 80px 50px -0px 50px;
+}
+.medidas-pastel {
+  width: 20vw;
+  height: 25vh;
+  margin: 5vw;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: -5px 1px 50px rgba(0, 0, 0, 0.507);
+  border: 5px solid whitesmoke;
+}
+
+.texto-item a {
+  display: block;
+  position: absolute;
+  width: 18vw;
+  bottom: 8%;
+  font-size: 1vw;
+  text-decoration: none;
+
+  color: black;
+}
+
+.agregar-item {
+  padding: 0 10px;
+  font-size: 1.2vw;
+  color: green;
+}
+
+/****
+ID PASTELES
+****/
+#pastel1 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/pastel1.PNG);
+}
+#pastel2 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/pastel2.PNG);
+}
+#pastel3 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/pastel3.PNG);
+}
+#pastel4 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/pastel4.PNG);
+}
+#pastel5 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/pastel5.PNG);
+}
+#pastel6 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/pastel6.PNG);
+}
+/****
+FORMULARIO
+****/
+#encabezado {
+  text-align: center;
+}
+#formulario {
+  height: 100%;
+  padding: 0 50px;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/fondoBalncoCon\ Degradado.PNG);
+}
+#box {
+  justify-content: center;
+  flex: 1 1 41rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 41rem;
+  padding: 1em;
+  float: left;
+}
+
+.contenedor-formulario {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1vw;
+  width: 100%;
+}
+form {
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 70%;
+  padding: 3vw 0;
+  margin: 0 auto;
+  box-shadow: 1 0.5rem 50rem rgba(0, 0, 0, 0.1);
+}
+form p input {
+  margin: 10px 5px;
+  font-size: 1vw;
+
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+form p textarea {
+  margin: 10px 5px;
+  font-size: 1vw;
+  box-shadow: 1 0.5rem 50rem rgba(0, 0, 0, 0.1);
+}
+.map {
+  width: 30vw;
+  height: 12.5vh;
+  border: 0;
+}
+
+#contenedor-btn{
+  width: 100%;
+  text-align: center;
+}
+.boton-enviar{
+  font-size: 2vw;
+  color: black;
+ 
+  border-radius: 10px;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.boton-enviar:hover{
+  padding: 0.2em;
+  background-color: tomato;
+}
+/****
+FOOTER
+****/
+footer {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+ 
+  background-color: #fff3de;
+  box-shadow: 0px -5px #fff3de;
+
+}
+footer h5{
+  font-size: 2vw;
+  margin: 0 auto;
+}
+/****
+FONTS
+****/
+
+@font-face {
+  font-family: pasteleria-titulos;
+  src: url(/Font/bakery.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: pasteleria-contenido;
+  src: url(/Font/PaytoneOne-Regular.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: pasteleria-items-banner;
+  src: url(/Font/KaushanScript-Regular.ttf);
+  font-weight: bold;
+}
